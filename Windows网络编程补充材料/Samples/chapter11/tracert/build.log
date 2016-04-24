@@ -1,0 +1,12 @@
+BUILD: Examining d:\main\net\testsrc\component\winsock\src\users\ajones\common directory for files to compile.
+Compiling d:\main\net\testsrc\component\winsock\src\users\ajones\common directory ********************
+'nmake.exe /c BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+cl -nologo -Ii386\ -I. -I. -ID:\MAIN\public\sdk\inc -Iobj\i386 -ID:\MAIN\public\oak\inc -ID:\MAIN\public\sdk\inc -ID:\MAIN\public\sdk\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1 -DNT_UP=1  -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0501 /DWINVER=0x0501 -D_WIN32_IE=0x0600    -DWIN32_LEAN_AND_MEAN=1 -DDBG=1 -DDEVL=1 -D__BUILDMACHINE__=ajones -DFPO=0  -DNDEBUG  -D_WIN32WIN_     /c /Zel /Zp8 /Gy  /W3 /WX /Gz  /QIfdiv- /QIf /G6 /Gi- /Gm- /GX-  /GR- /GF  -Z7 /Od /Oy-   -FID:\MAIN\public\sdk\inc\warning.h   .\resolve.c 
+resolve.c
+	lib -out:..\lib\i386\resolve.lib -IGNORE:4010,4037,4039,4065,4070,4078,4087,4089,4198,4221  /WX -nodefaultlib -machine:ix86 @D:\DOCUME~1\AJONES~1.NTD\LOCALS~1\Temp\2\nm57.tmp
+Microsoft (R) Library Manager Version 7.00.9210
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+obj\i386\resolve.obj 
+
+Stop.

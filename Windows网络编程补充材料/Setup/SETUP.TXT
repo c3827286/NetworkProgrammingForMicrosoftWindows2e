@@ -1,0 +1,79 @@
+[SetupText]
+
+OkButton=OK
+CancelButton=Cancel
+YesToAllTitle=Yes To All
+YesToAllButton=Yes
+NoButton=No
+ScreenMessage=Network Programming for Microsoft Windows, Second Edition
+AppName=Setup
+
+WelcomeTitle=Welcome
+WelcomeText=Welcome to the %s Setup Program!
+
+InstallTitle=Install The %s Files Where?
+InstallText=The Setup program will copy the %s files into the specified directory. Click OK to continue.
+
+ExitTitle=Are you sure?
+ExitText=Setup has not completed installing the files. Are you sure you want to exit Setup?
+
+InstallingTitle=Installing....
+InstallingText1=Setup is installing
+InstallingText2=to
+
+FinishedTitle=Finished!
+FinishedText=Setup has finished installing the %s files. Enjoy!
+
+NoRoomTitle=Not enough free space!
+NoRoomText=You don't have enough free space on drive %c to install all the files. Please free up some space and try again.
+
+ConfirmReplaceTitle=Confirm File Replace
+ConfirmReplaceText1=This folder already contains a file named '%s'.
+ConfirmReplaceText2=Would you like to replace the existing file
+ConfirmReplaceText3=modified on %s
+ConfirmReplaceText4=with this one?
+
+ChangeDirTitle=Change Directory
+ChangeDirButton=Change Folder...
+FolderText=Folder
+NoChange=Setup will not allow you to install files to the root directory of a drive. Please choose a directory in which to install the files.
+
+SetupFailedTitle=Setup Failed
+SetupFailedText=Setup did not finish installing the files. Please run Setup again to complete the installation process.
+
+LongFilenameProblemText=There was a problem installing the files. Please restart your computer in safe mode and try reinstalling the files. (To start the computer in safe mode, press F5 when the computer beeps during the boot process.)
+
+ProblemInstallingText=There was a problem installing the files. Please restart your computer in safe mode and try reinstalling the files. (To start the computer in safe mode, press F5 when the computer beeps during the boot process.)
+
+BrowseTitle=Browse
+BrowseText1=Current Directory:
+BrowseText2=New Directory:
+
+CreateDirText=The directory you've specified does not exist. Do you want to create it?
+
+UninstallText=This will remove all the files in the directory to which %s was installed. Are you sure you want to continue?
+UninstallProblemText=Not all the files could be removed. Be sure none of the files are in use and run the uninstall program again.
+
+ContinueButton=Continue
+ExitButton=Exit Setup
+
+UpdatingTitle=Updating System
+UpdatingText=Setup is updating the files for %s....
+
+OptionsTitle=Select Options
+InstructionText=In the Options list, select the items you want installed; clear the items you do not want installed.
+OptionStatic=Options:
+FolderTitle=Folder for Currently Selected Option
+SpaceRequired=Space required on drive %c: %s
+SpaceAvailable=Space available on drive %c: %s
+DescriptionStatic=Description:
+DescriptionText=Installs the %s files
+
+Bytes=bytes
+KBytes=KB
+MBytes=MB
+
+UpdateRegistryError=You must have administrator privileges for this program to work correctly under Microsoft Windows NT or Windows 2000.
+NoWindowsDir=You cannot install these files into a directory which is part of the Windows tree.
+
+NotEmptyDirectory=The uninstall program for this product deletes all files in the directory to which you install. The directory you've selected contains files which will be deleted if you uninstall this product. Are you sure you want to install here?
